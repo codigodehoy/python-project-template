@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
-def bar():
-    return "bar!"
+from .submodule import bar
 
 
-def zoo():
-    return "zoo!"
+def return_foo():
+    return f"{bar.return_bar()}foo!{bar.return_bar()}"
