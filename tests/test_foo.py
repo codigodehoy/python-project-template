@@ -1,16 +1,12 @@
 # -*- coding: utf-8 -*-
 
-import utils  # for ModuleNotFoundError
 from project_name import foo
 import unittest
 
 
 class FooTest(unittest.TestCase):
-    def test_bar(self):
-        self.assertEqual(foo.bar(), "bar!")
-
-    def test_zoo(self):
-        self.assertEqual(foo.zoo(), "zoo!")
+    def test_foo(self):
+        self.assertEqual(foo.return_foo(), f"bar!foo!bar!")
 
 
 if __name__ == "__main__":
