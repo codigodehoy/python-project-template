@@ -1,7 +1,10 @@
 ### Etc. ###
 
-# virtual environments
+# Virtual environments
 .venv*
+
+# Private files
+private/*
 
 ### VS Code ###
 
