@@ -5,6 +5,10 @@
 
 ## 📜 **Prerequisites**
 
+### **Install dependencies**
+
+All required dependencies are listed in `requirements.txt`.
+
 ```bash
 pip install -r requirements.txt
 ```
