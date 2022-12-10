@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from project_name.submodule import bar
+from project_name.subpackage import bar
 import unittest
 
 

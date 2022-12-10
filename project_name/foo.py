@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-from .submodule import bar
+from .subpackage import bar
 
 
 def return_foo():
