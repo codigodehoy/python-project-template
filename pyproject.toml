@@ -1,0 +1,41 @@
+# See PEP 621 for more information
+# https://peps.python.org/pep-0621
+
+[project]
+name = "YOUR_PROJECT_NAME"
+version = "0.1.0"
+description = "YOUR_PROJECT_DESCRIPTION"
+readme = "README.md"
+requires-python = "PYTHON_VERSION_SPECIFIER"
+license = {file = "LICENSE"}
+authors = [
+    {name = "AUTHOR_NAME", email = "AUTHOR_EMAIL"},
+]
+maintainers = [
+    {name = "MAINTAINER_NAME", email = "MAINTAINER_EMAIL"},
+]
+keywords = ["YOUR", "PROJECT", "KEYWORDS"]
+classifiers = [
+    "Programming Language :: Python"
+    # See https://pypi.org/classifiers/ for more classifiers
+]
+dependencies = [
+    "YOUR",
+    "PROJECT",
+    "DEPENDENCIES",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "isort >= 5.0.0"
+]
+
+[project.urls]
+repository = "https://github.com/YOUR/REPOSITORY"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
