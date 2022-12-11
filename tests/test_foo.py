@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from project_name import foo
 import unittest
+
+from project_name import foo
 
 
 class FooTest(unittest.TestCase):
-    def test_foo(self):
-        self.assertEqual(foo.return_foo(), f"bar!foo!bar!")
+    def test_repeat_bar(self):
+        self.assertEqual(foo.repeat_bar(10), "bar!" * 10)
+        self.assertEqual(foo.repeat_bar(0), "")
+        self.assertEqual(foo.repeat_bar(-10), "")
 
 
 if __name__ == "__main__":
