@@ -7,14 +7,18 @@ version = "0.1.0"
 description = "YOUR_PROJECT_DESCRIPTION"
 readme = "README.md"
 requires-python = "PYTHON_VERSION_SPECIFIER"
-license = {file = "LICENSE"}
+license = { file = "LICENSE" }
 authors = [
-    {name = "AUTHOR_NAME", email = "AUTHOR_EMAIL"},
+    { name = "AUTHOR_NAME", email = "AUTHOR_EMAIL" }
 ]
 maintainers = [
-    {name = "MAINTAINER_NAME", email = "MAINTAINER_EMAIL"},
+    { name = "MAINTAINER_NAME", email = "MAINTAINER_EMAIL" }
 ]
-keywords = ["YOUR", "PROJECT", "KEYWORDS"]
+keywords = [
+    "YOUR",
+    "PROJECT",
+    "KEYWORDS"
+]
 classifiers = [
     "Programming Language :: Python"
     # See https://pypi.org/classifiers/ for more classifiers
@@ -22,12 +26,13 @@ classifiers = [
 dependencies = [
     "YOUR",
     "PROJECT",
-    "DEPENDENCIES",
+    "DEPENDENCIES"
 ]
 
 [project.optional-dependencies]
 dev = [
     "black",
+    "flake8",
     "isort >= 5.0.0"
 ]
 
