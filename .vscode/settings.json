@@ -9,13 +9,21 @@
     "terminal.integrated.env.osx": {
         "PYTHONPATH": "${workspaceFolder}"
     },
-    // formatting
+    // linting and formatting
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+        "--ignore=F401"
+        // F401: Module imported but unused
+        // See https://flake8.pycqa.org/en/latest/user/error-codes.html
+    ],
     "python.formatting.provider": "black",
     "[python]": {
         "editor.formatOnSave": true,
         "editor.rulers": [
             72, // PEP 8 recommendation for docstrings or comments
-            88, // black default line length
+            88, // default maximum line length of black
         ],
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
