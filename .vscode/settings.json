@@ -29,13 +29,7 @@
             "source.organizeImports": true
         }
     },
-    // testing 
-    "python.testing.unittestEnabled": true,
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "tests",
-        "-p",
-        "*test*.py"
-    ],
+    // testing
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.testing.pytestEnabled": true,
 }
