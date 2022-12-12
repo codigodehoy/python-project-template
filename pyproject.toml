@@ -33,7 +33,7 @@ dependencies = [
 dev = [
     "black",
     "flake8",
-    "isort >= 5.0.0",
+    "isort >= 5.10.1",
     "pytest"
 ]
 
