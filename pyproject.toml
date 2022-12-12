@@ -34,6 +34,7 @@ dev = [
     "black",
     "flake8",
     "isort >= 5.10.1",
+    "mypy",
     "pytest"
 ]
 
@@ -45,6 +46,11 @@ line-length = 88
 
 [tool.isort]
 profile = "black"
+
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+allow_redefinition = true
 
 [tool.pytest.ini_options]
 testpaths = [ "tests" ]
