@@ -1,4 +1,4 @@
 black
 flake8
-isort >= 5.0.0  # See https://black.readthedocs.io/en/stable/guides/using_black_with_other_tools.html
+isort >= 5.10.1
 pytest
