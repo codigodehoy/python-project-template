@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from project_name import foo
+from package import foo
 
 
 def test_repeat_bar():

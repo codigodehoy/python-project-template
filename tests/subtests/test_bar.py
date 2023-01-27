@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from project_name.subpackage import bar
+from package.subpackage import bar
 
 
 def test_bar():
